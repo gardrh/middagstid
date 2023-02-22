@@ -15,6 +15,9 @@ generateBtn.addEventListener("click", () => {
     .catch(error => console.error(error));
 });
 
+const generateBtn1 = document.getElementById("generate-btn");
+const resultDiv = document.querySelector(".result");
+
 generateBtn1.addEventListener("click", () => {
   fetch("data.csv")
     .then(response => response.text())
@@ -27,4 +30,6 @@ generateBtn1.addEventListener("click", () => {
       resultDiv.innerHTML = resultHTML;
     })
     .catch(error => console.error(error));
-})
+});
+
+
