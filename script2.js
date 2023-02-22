@@ -9,19 +9,18 @@ const results = [
 	"Result 7"
 ];
 
-// Get the button and result elements
-const generateBtn1 = document.getElementById("generate-btn");
-const resultDiv = document.querySelector(".result");
+// Get the button element
+const generateBtn = document.getElementById("generate-btn");
 
 // Define the generateResult function
 function generateResult() {
 	// Get a random index from the results array
 	const randomIndex = Math.floor(Math.random() * results.length);
 	// Get the result at the random index
-	const result = results[randomIndex];
-	// Update the result div with the result
-	resultDiv.innerHTML = result;
+	const middag = results[randomIndex];
+	// Navigate to a new page with the result as a query parameter
+	window.location = `middag.html?result=${result}`;
 }
 
 // Attach the generateResult function to the button's click event
-generateBtn1.addEventListener("click", generateResult);
+generateBtn.addEventListener("click", generateResult);
