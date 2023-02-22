@@ -1,17 +1,7 @@
-// Define an array of 7 results
-const results = [
-	"Result 1",
-	"Result 2",
-	"Result 3",
-	"Result 4",
-	"Result 5",
-	"Result 6",
-	"Result 7"
-];
-const generateBtn = document.getElementById("generate-btn");
+const generateBtn1 = document.getElementById("generate-btn1");
 const resultDiv = document.querySelector(".result");
 
-generateBtn.addEventListener("click", () => {
+generateBtn1.addEventListener("click", () => {
   fetch("data.csv")
     .then(response => response.text())
     .then(text => {
