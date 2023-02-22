@@ -23,7 +23,7 @@ body {
 
 #generate-btn {
   padding: 10px 20px; /* set button padding */
-  background-color: #4CAF50; /* set button color */
+  background-color: #1F858D; /* set button color */
   color: white; /* set button text color */
   border: none; /* remove button border */
   border-radius: 5px; /* round button corners */
@@ -32,7 +32,7 @@ body {
 }
 
 #generate-btn:hover {
-  background-color: #3e8e41; /* change background color on hover */
+  background-color: #1F858D; /* change background color on hover */
 }
 
 #generate-btn:active {
