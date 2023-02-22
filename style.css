@@ -6,3 +6,13 @@ h2 {font-size: 2em;}
 h3 {font-size: 1.75em;}
 h4 {font-size: 1.5em;}
 p {font-size: 1.25em;}
+
+/*layout*/
+
+body {
+  text-align: center; /* center text */
+  margin: auto; /* center horizontally */
+  display: flex; /* center vertically */
+  flex-direction: column; /* center vertically */
+  justify-content: center; /* center vertically */
+}
