@@ -16,3 +16,8 @@ body {
   flex-direction: column; /* center vertically */
   justify-content: center; /* center vertically */
 }
+
+.button-container {
+  text-align: center; /* center buttons horizontally */
+}
+
