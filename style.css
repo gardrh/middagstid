@@ -21,18 +21,3 @@ body {
   text-align: center; /* center buttons horizontally */
 }
 
-#generate-btn {
-  padding: 10px 20px; /* set button padding */
-  background-color: #1F858D; /* set button color */
-  color: white; /* set button text color */
-  border: none; /* remove button border */
-  border-radius: 5px; /* round button corners */
-  cursor: pointer; /* add pointer cursor on hover */
-  transition: transform 0.4s ease-in-out; /* add transition effect */
-}
-
-
-
-#generate-btn:active {
-  transform: translateY(5px); /* move button down on press */
-}
