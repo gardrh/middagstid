@@ -10,7 +10,7 @@ const results = [
 ];
 
 // Get the button element
-const generateBtn = document.getElementById("generate-btn");
+const generateBtn1 = document.getElementById("generate-btn1");
 
 // Define the generateResult function
 function generateResult() {
@@ -23,4 +23,4 @@ function generateResult() {
 }
 
 // Attach the generateResult function to the button's click event
-generateBtn.addEventListener("click", generateResult);
+generateBtn1.addEventListener("click", generateResult);
