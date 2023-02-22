@@ -5,8 +5,12 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>DETTE SKAL DU SPISE TIL MIDDAG!</h1>
+	<h1>Your Random Result:</h1>
 	<p class="result"></p>
 	<script src="script.js"></script>
 </body>
 </html>
+
+
+// Set the result text to the query parameter value
+resultDiv.innerHTML = urlParams.get("result");
