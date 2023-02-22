@@ -11,10 +11,6 @@ generateBtn.addEventListener("click", () => {
       const randomRow = data[randomIndex];
       const resultHTML = headers.map((header, index) => `<p><strong>${header}:</strong> ${randomRow[index]}</p>`).join("");
       resultDiv.innerHTML = resultHTML;
-
-}
     })
     .catch(error => console.error(error));
 });
-
-
