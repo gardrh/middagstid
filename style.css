@@ -9,8 +9,8 @@ $lightGrey: #d3d3d3;
 @mixin transition($property) {transition: $property .25s;}
 
 /*Typography*/
-html {font: 16px 'Open Sans Condensed', 'Roboto Condensed', Verdana, sans-serif;}
-h1 {font-size: 2.25em;}
+html {font: 16px 'Chau Philomene One', 'Roboto Condensed', Verdana, sans-serif;}
+h1 {font-size: 2.5em;}
 h2 {font-size: 2em;}
 h3 {font-size: 1.75em;}
 h4 {font-size: 1.5em;}
