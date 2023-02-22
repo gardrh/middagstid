@@ -15,7 +15,7 @@ generateBtn.addEventListener("click", () => {
     .catch(error => console.error(error));
 });
 
-const generateBtn1 = document.getElementById("generate-btn");
+const generateBtn1 = document.getElementById("generate-btn1");
 const resultDiv = document.querySelector(".result");
 
 generateBtn1.addEventListener("click", () => {
