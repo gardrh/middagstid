@@ -58,6 +58,6 @@ function generateResult() {
 }
 
 // Attach the generateResult function to the button's click event
-generateBtn.addEventListener("click", generateResult);
+generateBtn1.addEventListener("click", generateResult);
 
 
