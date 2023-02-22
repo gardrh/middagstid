@@ -20,10 +20,15 @@
 			border: none;
 			border-radius: 100%;
 			cursor: pointer;
+			transition: transform 0.2s ease-in-out; /* add transition effect */
 			font-size: 1.7em;
 			font-color: orange;
 			margin-bottom: 1em;
 		}
+		
+		#generate-btn:active {
+  transform: translateY(5px); /* move button down on press */
+}
 
 		/* Style the result div */
 		.result {
