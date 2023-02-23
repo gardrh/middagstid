@@ -21,3 +21,9 @@ body {
   text-align: center; /* center buttons horizontally */
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
