@@ -17,10 +17,7 @@ body {
   justify-content: center; /* center vertically */
 }
 
-div {
-display: flex;
-justify-content: center;
-}
+
 
 .button-container {
   text-align: center; /* center buttons horizontally */
