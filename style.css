@@ -26,8 +26,8 @@ body {
 
 #back-button {
 
-			background-color: #f0e442;
-			color: #009e73;
+			background-color: #ADEFD1FF;
+			color: #00203FFF;
 			font-weight: bold;
 			padding-top: 1px ;
 			padding-bottom: 1px;
@@ -45,9 +45,9 @@ body {
 
 
 #back-button:hover {
-  background-color: #cfc542; /* Darker green on hover */
+  background-color: #ADEFD1FF; /* Darker green on hover */
 }
 
 		#back-button:active {
-  transform: translateY(34px); /* move button down on press */
+  transform: translateY(37px); /* move button down on press */
 			
