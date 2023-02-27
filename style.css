@@ -23,3 +23,41 @@ body {
   text-align: center; /* center buttons horizontally */
 }
 
+
+#back-button {
+
+			background-color: #1F858D;
+			color: #E39120;
+			font-weight: bold;
+			padding-top: 1px ;
+			padding-bottom: 1px;
+			height: 140px;
+			width: 140px;
+			border: none;
+			border-radius: 100%;
+			cursor: pointer;
+			transition: transform 0.2s ease-in-out; /* add transition effect */
+			font-size: 1.7em;
+			font-color: orange;
+			margin-bottom: 1em;
+		}
+
+
+
+#back-button:hover {
+  background-color: ##black; /* Darker green on hover */
+}
+
+		#back-button:active {
+  transform: translateY(34px); /* move button down on press */
+			
+
+#dinner-count {
+  background-color: #f2f2f2; /* Light gray background */
+  border: 1px solid #ddd; /* Gray border */
+  color: #666; /* Gray text */
+  padding: 10px; /* Padding */
+  text-align: center; /* Center text */
+  margin: 10px; /* Add margin */
+  border-radius: 4px; /* Add rounded corners */
+}
