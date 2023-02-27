@@ -1,6 +1,6 @@
 
 /*Typography*/
-html {font: 16px 'Optima', 'Roboto Condensed', Verdana, sans-serif;}
+html {font: 16px 'Avenir', 'Open sans', Verdana, sans-serif;}
 h1 {font-size: 1.6em;}
 h2 {font-size: 1.3em;}
 h3 {font-size: 1.75em;}
@@ -45,7 +45,7 @@ body {
 
 
 #back-button:hover {
-  background-color: ##black; /* Darker green on hover */
+  background-color: #1c5c4a; /* Darker green on hover */
 }
 
 		#back-button:active {
