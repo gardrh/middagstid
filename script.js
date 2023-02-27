@@ -14,3 +14,18 @@ generateBtn.addEventListener("click", () => {
     })
     .catch(error => console.error(error));
 });
+
+
+	var request = new XMLHttpRequest();
+		request.open("GET", "data.csv", true);
+		request.onload = function() {
+			// Parse the CSV data
+			var csvData = request.responseText;
+			var csvRows = csvData.split("\n");
+			var rowCount = csvRows.length;
+
+			// Update the HTML element with the row count
+			var resultElement = document.getElementById("result");
+			resultElement.innerHTML = "The CSV file has " + rowCount + " rows.";
+		};
+		request.send();
